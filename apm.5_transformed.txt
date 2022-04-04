@@ -1,0 +1,57 @@
+Mar 12 05:00:09 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:1db43fe5: Received User-Agent header: https%3A%2F%2Fgdnplus.com%3AGather%20Analyze%20Provide..
+Mar 12 05:00:09 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:1db43fe5: New session from client IP 170.130.187.58 (ST=California/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 05:05:18 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:1db43fe5: Session deleted due to user inactivity.
+Mar 12 05:05:59 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:1db43fe5: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 05:28:19 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:7709a662: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.113%20Safari%2F537.36%20.
+Mar 12 05:28:19 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:7709a662: New session from client IP 128.1.248.26 (ST=California/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 05:33:21 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:7709a662: Session deleted due to user inactivity.
+Mar 12 05:34:02 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:7709a662: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 07:25:42 apm.f5.local notice tmm[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:2c762132: User-Agent header is absent or empty
+Mar 12 07:25:42 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:2c762132: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 07:30:46 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:2c762132: Session deleted due to user inactivity.
+Mar 12 07:31:27 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:2c762132: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 10:51:23 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:d39c5570: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F60.0.3112.113%20Safari%2F537.36%20.
+Mar 12 10:51:23 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:d39c5570: New session from client IP 128.14.209.162 (ST=California/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 10:56:30 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:d39c5570: Session deleted due to user inactivity.
+Mar 12 10:57:11 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:d39c5570: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 13:26:15 apm.f5.local notice tmm1[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:8769ff56: User-Agent header is absent or empty
+Mar 12 13:26:15 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:8769ff56: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 13:31:22 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:8769ff56: Session deleted due to user inactivity.
+Mar 12 13:32:03 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:8769ff56: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 18:17:58 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:1d416bcd: Received User-Agent header: Mozilla%2F5.0%20zgrab%2F0.x.
+Mar 12 18:17:58 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:1d416bcd: New session from client IP 192.241.213.127 (ST=California/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 18:23:07 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:1d416bcd: Session deleted due to user inactivity.
+Mar 12 18:23:48 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:1d416bcd: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 18:48:12 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:9ec96839: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F88.0.4324.190%20Safari%2F537.36.
+Mar 12 18:48:12 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:9ec96839: New session from client IP 89.248.169.12 (ST=Zuid-Holland/CC=NL/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 18:53:13 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:9ec96839: Session deleted due to user inactivity.
+Mar 12 18:53:54 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:9ec96839: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 19:15:07 apm.f5.local notice tmm1[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:918ba905: User-Agent header is absent or empty
+Mar 12 19:15:07 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:918ba905: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 19:20:11 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:918ba905: Session deleted due to user inactivity.
+Mar 12 19:20:52 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:918ba905: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:20:44 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:360c4e31: Received User-Agent header: Mozilla%2F5.0%20(compatible%3B%20CensysInspect%2F1.1%3B%20%2Bhttps%3A%2F%2Fabout.censys.io%2F).
+Mar 12 21:20:44 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:360c4e31: New session from client IP 167.94.138.47 (ST=Arizona/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 21:20:48 apm.f5.local notice tmm[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:4de414f5: User-Agent header is absent or empty
+Mar 12 21:20:48 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:4de414f5: New session from client IP 167.94.138.47 (ST=Arizona/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 21:20:49 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:b9a53db7: Received User-Agent header: Mozilla%2F5.0%20(compatible%3B%20CensysInspect%2F1.1%3B%20%2Bhttps%3A%2F%2Fabout.censys.io%2F).
+Mar 12 21:20:49 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:b9a53db7: New session from client IP 167.94.138.47 (ST=Arizona/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 21:20:50 apm.f5.local warning tmm1[17534]: 01490531:4: db99f0a3: Detected invalid host header () originating from IP 167.94.138.47.
+Mar 12 21:20:50 apm.f5.local notice tmm1[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:db99f0a3: Session deleted (no_hostname).
+Mar 12 21:20:52 apm.f5.local warning tmm[17534]: 01490531:4: 41ea19de: Detected invalid host header () originating from IP 167.94.138.47.
+Mar 12 21:20:52 apm.f5.local notice tmm[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:41ea19de: Session deleted (no_hostname).
+Mar 12 21:20:54 apm.f5.local warning tmm[17534]: 01490531:4: fabd108c: Detected invalid host header () originating from IP 167.94.138.47.
+Mar 12 21:20:54 apm.f5.local notice tmm[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:fabd108c: Session deleted (no_hostname).
+Mar 12 21:21:28 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:fabd108c: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:21:28 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:db99f0a3: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:21:32 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:41ea19de: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:25:50 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:360c4e31: Session deleted due to user inactivity.
+Mar 12 21:25:51 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:b9a53db7: Session deleted due to user inactivity.
+Mar 12 21:25:53 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:4de414f5: Session deleted due to user inactivity.
+Mar 12 21:26:31 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:360c4e31: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:26:32 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:b9a53db7: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 21:26:34 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:4de414f5: Session statistics - bytes in: 0, bytes out: 0
+Mar 13 01:23:54 apm.f5.local notice tmm1[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:19d70976: User-Agent header is absent or empty
+Mar 13 01:23:54 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:19d70976: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 13 01:29:01 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:19d70976: Session deleted due to user inactivity.
+Mar 13 01:29:42 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:19d70976: Session statistics - bytes in: 0, bytes out: 0

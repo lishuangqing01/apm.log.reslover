@@ -1,0 +1,982 @@
+Mar 11 04:17:06 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:17:06 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:17:06 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:17:06 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:17:20 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:17:20 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:18:28 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Received User-Agent header: Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_3_1%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.3%20Mobile%2F15E148%20Safari%2F604.1.
+Mar 11 04:18:28 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: New session from client IP 220.196.194.47 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:18:36 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Username 'user1'
+Mar 11 04:18:36 apm.f5.local warning apmd[12312]: 01490212:4: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: LOCALDB agent: (logon attempt:0) authenticate with 'user1' failed
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Username 'f5testuser'
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Access policy result: Network_Access
+Mar 11 04:19:07 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:19:09 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:19:09 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:19:10 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Username 'f5testuser'
+Mar 11 04:19:10 apm.f5.local notice apmd[12312]: 01490103:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Retry Username 'f5testuser'
+Mar 11 04:19:10 apm.f5.local warning apmd[12312]: 01490212:4: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: LOCALDB agent: (logon attempt:1) authenticate with 'f5testuser' failed
+Mar 11 04:19:18 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Username 'f5testuser'
+Mar 11 04:19:18 apm.f5.local notice apmd[12312]: 01490103:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Retry Username 'f5testuser'
+Mar 11 04:19:18 apm.f5.local warning apmd[12312]: 01490212:4: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: LOCALDB agent: (logon attempt:2) authenticate with 'f5testuser' failed
+Mar 11 04:20:08 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:20:08 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:20:22 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:20:22 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:20:22 apm.f5.local notice tmm1[17455]: 014905d5:5: /Common/default_ssl_vpn_policy_202203102312:Common: Invalid token abcfb41b1d6f1bf5911f7444a18b0918   recieved from client IP 58.247.201.148 at VIP 109.101.115.10. Error ERR_NOT_FOUND
+Mar 11 04:21:06 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:21:06 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:21:20 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:21:20 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:21:47 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Assigned PPP Dynamic IPv4: 109.101.115.2 ID: dd9ce4d7 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:21:47 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: PPP tunnel 0x560027afdc00 (ID: dd9ce4d7) started.
+Mar 11 04:21:57 apm.f5.local notice tmm1[17455]: 01490520:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Session deleted due to admin initiated termination.
+Mar 11 04:21:57 apm.f5.local notice tmm[17455]: 01490520:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Session deleted due to admin initiated termination.
+Mar 11 04:21:58 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: PPP tunnel 0x560027afdc00 (ID: dd9ce4d7) closed.
+Mar 11 04:22:30 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:d4bf2a9a: Session statistics - bytes in: 17582, bytes out: 30929
+Mar 11 04:22:31 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:e4e60061: Session statistics - bytes in: 161159, bytes out: 7818932
+Mar 11 04:22:34 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:22:34 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Username 'f5testuser'
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Access policy result: Network_Access
+Mar 11 04:22:49 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:22:50 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:22:50 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:23:10 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:23:10 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:23:17 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Assigned PPP Dynamic IPv4: 109.101.115.3 ID: 8ff901e2 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:23:17 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: PPP tunnel 0x560027afda00 (ID: 8ff901e2) started.
+Mar 11 04:24:51 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:24:51 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Username 'user1'
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Access policy result: Network_Access
+Mar 11 04:24:58 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:26:06 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Assigned PPP Dynamic IPv4: 109.101.115.4 ID: 0fdbd5ae Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:26:06 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: PPP tunnel 0x560027afe400 (ID: 0fdbd5ae) started.
+Mar 11 04:26:43 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 04:26:50 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:26:50 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:26:52 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:26:52 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:26:54 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:26:54 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:26:54 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:26:54 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646941684 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646941685 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.96f27c85412_3ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.96f27c85412_3ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646941685 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:26:54 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 5
+Mar 11 04:27:04 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: PPP tunnel 0x560027afda00 (ID: 8ff901e2) closed.
+Mar 11 04:27:07 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Session deleted (user_initiated; code - 1).
+Mar 11 04:27:10 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:27:10 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Username 'f5testuser'
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Access policy result: Network_Access
+Mar 11 04:27:26 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:27:27 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:27:32 apm.f5.local notice tmm1[17455]: 01490520:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Session deleted due to admin initiated termination.
+Mar 11 04:27:32 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: PPP tunnel 0x560027afe400 (ID: 0fdbd5ae) closed.
+Mar 11 04:27:35 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:27:35 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:27:40 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:2bc3d542: Session statistics - bytes in: 56747, bytes out: 51015
+Mar 11 04:27:45 apm.f5.local notice tmm[17455]: 01490520:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Session deleted due to admin initiated termination.
+Mar 11 04:27:55 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:27:55 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Username 'user1'
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Access policy result: Network_Access
+Mar 11 04:28:00 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:28:01 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:28:01 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:28:10 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Assigned PPP Dynamic IPv4: 109.101.115.11 ID: 8634bee1 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:28:10 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: PPP tunnel 0x560027afe300 (ID: 8634bee1) started.
+Mar 11 04:28:11 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:8f476cda: Session statistics - bytes in: 165839, bytes out: 7945592
+Mar 11 04:28:20 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:2e8fe9ea: Session statistics - bytes in: 18517, bytes out: 18823
+Mar 11 04:28:28 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:92b3e606: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:28:28 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:92b3e606: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:28:48 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 04:28:48 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Username 'f5testuser'
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Access policy result: Network_Access
+Mar 11 04:29:01 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:29:02 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:29:02 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:29:09 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:29:09 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:29:15 apm.f5.local notice tmm[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Assigned PPP Dynamic IPv4: 109.101.115.12 ID: 36edf5af Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:29:15 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: PPP tunnel 0x56000158dd00 (ID: 36edf5af) started.
+Mar 11 04:31:32 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: PPP tunnel 0x560027afe300 (ID: 8634bee1) closed.
+Mar 11 04:33:36 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:92b3e606: Session deleted due to user inactivity.
+Mar 11 04:34:17 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:92b3e606: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 04:36:06 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A98.0)%20Gecko%2F20100101%20Firefox%2F98.0.
+Mar 11 04:36:06 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Username 'user1'
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Access policy result: Network_Access
+Mar 11 04:36:09 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:36:11 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 04:36:11 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 04:36:12 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 04:36:12 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 04:36:20 apm.f5.local notice tmm[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Assigned PPP Dynamic IPv4: 109.101.115.13 ID: e1aa01e5 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 04:36:20 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: PPP tunnel 0x56000158da00 (ID: e1aa01e5) started.
+Mar 11 04:39:36 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 04:39:55 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:39:55 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:39:55 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:39:55 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646941685 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646941686 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.c7d144516_4ooooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.c7d144516_4ooooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646941686 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:39:55 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 6
+Mar 11 04:43:45 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 04:43:57 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:43:57 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:43:57 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:43:57 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646941686 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646941687 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.d6e30177b1a_5ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.d6e30177b1a_5ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646941687 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 04:43:57 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 7
+Mar 11 04:46:38 apm.f5.local notice tmm[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Session deleted due to user inactivity.
+Mar 11 04:47:19 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:6017382a: Session statistics - bytes in: 74766, bytes out: 81530
+Mar 11 04:55:45 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:6fd07dc9: Received User-Agent header: Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_3_1%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.3%20Mobile%2F15E148%20Safari%2F604.1.
+Mar 11 04:55:45 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:6fd07dc9: New session from client IP 220.196.194.47 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:55:47 apm.f5.local notice tmm[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:6fd07dc9: Session deleted (restarted).
+Mar 11 04:55:47 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Received User-Agent header: Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_3_1%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.3%20Mobile%2F15E148%20Safari%2F604.1.
+Mar 11 04:55:47 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: New session from client IP 220.196.194.47 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Username 'user2'
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Access policy result: Network_Access
+Mar 11 04:56:02 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Received client info - Hostname:  Type: Safari Version: 1 Platform: iOS CPU: unknown UI Mode: Mobile Smart Phone Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 04:56:27 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:6fd07dc9: Session statistics - bytes in: 1374, bytes out: 467
+Mar 11 05:04:49 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 05:04:56 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 05:04:56 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 05:04:56 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 05:04:56 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646941687 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646941688 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.125a338d472_6ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.125a338d472_6ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646941688 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 05:04:56 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 8
+Mar 11 05:05:57 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: PPP tunnel 0x56000158da00 (ID: e1aa01e5) closed.
+Mar 11 05:06:01 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 05:06:03 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 05:06:03 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 05:06:09 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Assigned PPP Dynamic IPv4: 109.101.115.14 ID: 1e2de90d Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 05:06:09 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: PPP tunnel 0x560027afdf00 (ID: 1e2de90d) started.
+Mar 11 05:06:21 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Session deleted (user_initiated; code - 1).
+Mar 11 05:06:21 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: PPP tunnel 0x560027afdf00 (ID: 1e2de90d) closed.
+Mar 11 05:06:28 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A98.0)%20Gecko%2F20100101%20Firefox%2F98.0.
+Mar 11 05:06:28 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: New session from client IP 58.247.201.148 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Username 'user1'
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Access policy result: Network_Access
+Mar 11 05:06:30 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 05:06:31 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 05:06:44 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 05:06:44 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 05:06:50 apm.f5.local notice tmm[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Assigned PPP Dynamic IPv4: 109.101.115.15 ID: e8cac54c Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 
+Mar 11 05:06:50 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: PPP tunnel 0x56000158be00 (ID: e8cac54c) started.
+Mar 11 05:07:01 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:65d77057: Session statistics - bytes in: 372720, bytes out: 646771
+Mar 11 05:11:32 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Session deleted due to user inactivity.
+Mar 11 05:12:13 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ff093e9: Session statistics - bytes in: 4874, bytes out: 4069
+Mar 11 05:21:46 apm.f5.local notice tmm1[17455]: 01490538:5: tmm.session.69f1f22e840_2ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 05:21:46 apm.f5.local notice tmm[17455]: 01490538:5: tmm.session.69f1f22e840_2ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 06:01:42 apm.f5.local notice tmm1[17455]: 01490538:5: tmm.session.d6e30177b1a_5ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 06:01:42 apm.f5.local notice tmm[17455]: 01490538:5: tmm.session.d6e30177b1a_5ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 07:03:30 apm.f5.local notice tmm1[17455]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:37e01e11: User-Agent header is absent or empty
+Mar 11 07:03:30 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:37e01e11: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 07:08:33 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:37e01e11: Session deleted due to user inactivity.
+Mar 11 07:09:14 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:37e01e11: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:40:55 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:cdac0517: Received User-Agent header: Mozilla%2F5.0%20(compatible%3B%20CensysInspect%2F1.1%3B%20%2Bhttps%3A%2F%2Fabout.censys.io%2F).
+Mar 11 07:40:55 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:cdac0517: New session from client IP 167.248.133.117 (ST=Washington/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 07:40:59 apm.f5.local notice tmm1[17455]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:ecb17c01: User-Agent header is absent or empty
+Mar 11 07:40:59 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:ecb17c01: New session from client IP 167.248.133.117 (ST=Washington/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 07:40:59 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:bd828d32: Received User-Agent header: Mozilla%2F5.0%20(compatible%3B%20CensysInspect%2F1.1%3B%20%2Bhttps%3A%2F%2Fabout.censys.io%2F).
+Mar 11 07:40:59 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:bd828d32: New session from client IP 167.248.133.117 (ST=Washington/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 07:41:00 apm.f5.local warning tmm[17455]: 01490531:4: 27262e82: Detected invalid host header () originating from IP 167.248.133.117.
+Mar 11 07:41:00 apm.f5.local notice tmm[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:27262e82: Session deleted (no_hostname).
+Mar 11 07:41:02 apm.f5.local warning tmm1[17455]: 01490531:4: d05e5d89: Detected invalid host header () originating from IP 167.248.133.117.
+Mar 11 07:41:02 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:d05e5d89: Session deleted (no_hostname).
+Mar 11 07:41:04 apm.f5.local warning tmm1[17455]: 01490531:4: 9f3d5056: Detected invalid host header () originating from IP 167.248.133.117.
+Mar 11 07:41:04 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:9f3d5056: Session deleted (no_hostname).
+Mar 11 07:41:36 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:27262e82: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:41:37 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:d05e5d89: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:41:39 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:9f3d5056: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:46:00 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:bd828d32: Session deleted due to user inactivity.
+Mar 11 07:46:02 apm.f5.local notice tmm[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:cdac0517: Session deleted due to user inactivity.
+Mar 11 07:46:05 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:ecb17c01: Session deleted due to user inactivity.
+Mar 11 07:46:41 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:bd828d32: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:46:43 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:cdac0517: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 07:46:46 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:ecb17c01: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 08:08:50 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: PPP tunnel 0x56000158be00 (ID: e8cac54c) closed.
+Mar 11 08:23:45 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Assigned PPP Dynamic IPv4: 109.101.115.15 ID: 194d9066 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.148 - Reconnect
+Mar 11 08:23:45 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: PPP tunnel 0x560027afee00 (ID: 194d9066) started.
+Mar 11 08:23:50 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Session deleted (timed_out; code - 12289).
+Mar 11 08:23:53 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: PPP tunnel 0x560027afee00 (ID: 194d9066) closed.
+Mar 11 08:24:29 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:d858a3ae: Session statistics - bytes in: 3225831, bytes out: 2190241
+Mar 11 08:41:43 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Received User-Agent header: Mozilla%2F5.0%20(iPhone%3B%20CPU%20iPhone%20OS%2015_1%20like%20Mac%20OS%20X)%20AppleWebKit%2F605.1.15%20(KHTML%2C%20like%20Gecko)%20Version%2F15.1%20Mobile%2F15E148%20Safari%2F604.1.
+Mar 11 08:41:43 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: New session from client IP 58.247.201.240 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Username 'user1'
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Access policy result: Network_Access
+Mar 11 08:41:57 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Received client info - Hostname:  Type: Safari Version: 1 Platform: iOS CPU: unknown UI Mode: Mobile Smart Phone Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 08:57:22 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Session deleted due to user inactivity.
+Mar 11 08:58:03 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:250d724c: Session statistics - bytes in: 13426, bytes out: 35645
+Mar 11 09:46:24 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: PPP tunnel 0x56000158dd00 (ID: 36edf5af) closed.
+Mar 11 09:46:36 apm.f5.local notice tmm[17455]: 01490520:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Session deleted due to admin initiated termination.
+Mar 11 09:47:12 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:502f2bc9: Session statistics - bytes in: 2526222, bytes out: 1792383
+Mar 11 09:51:10 apm.f5.local notice tmm[17455]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 09:51:10 apm.f5.local notice tmm[17455]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Username 'user1'
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490009:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: ACL '/Common/ssl_vpn_allow_all_202203102320' assigned
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Access policy result: Network_Access
+Mar 11 09:51:20 apm.f5.local notice apmd[12312]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 09:51:23 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 09:51:27 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 09:52:46 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 09:53:12 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 09:53:12 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 09:53:34 apm.f5.local notice tmm[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Assigned PPP Dynamic IPv4: 109.101.115.16 ID: de4c6388 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.154 
+Mar 11 09:53:34 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x56000158c600 (ID: de4c6388) started.
+Mar 11 10:15:05 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x56000158c600 (ID: de4c6388) closed.
+Mar 11 10:19:54 apm.f5.local notice tmm[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Assigned PPP Dynamic IPv4: 109.101.115.16 ID: ccede4dc Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.154 - Reconnect
+Mar 11 10:19:54 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x56000158ef00 (ID: ccede4dc) started.
+Mar 11 10:33:24 apm.f5.local notice tmm[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x56000158ef00 (ID: ccede4dc) closed.
+Mar 11 10:33:41 apm.f5.local notice tmm[17455]: 01490538:5: tmm.session.96f27c85412_3ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 10:33:41 apm.f5.local notice tmm1[17455]: 01490538:5: tmm.session.96f27c85412_3ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490096:5: 00000000: A new access profile: /Common/test has been initialized
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490097:5: 00000000: A new access policy: /Common/test has been initialized
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966037 retrieved from session db for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966038 added for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.5f772220932_7ooooooooooooooooooo for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.5f772220932_7ooooooooooooooooooo for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966038 updated inside session db for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966038 retrieved from session db for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966039 added for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.5f7765bb11d_8ooooooooooooooooooo for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.5f7765bb11d_8ooooooooooooooooooo for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966039 updated inside session db for access profile: /Common/test
+Mar 11 10:33:57 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 1
+Mar 11 10:36:28 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 10:43:54 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:46:41 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Assigned PPP Dynamic IPv4: 109.101.115.16 ID: 339018fb Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.154 - Reconnect
+Mar 11 10:46:41 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x560027afd100 (ID: 339018fb) started.
+Mar 11 10:46:47 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:46:56 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: PPP tunnel 0x560027afd100 (ID: 339018fb) closed.
+Mar 11 10:50:29 apm.f5.local err apmd[12312]: 01490187:3: 00000000: Email Agent: No SMTP server associated with /Common/test_act_email_ag
+Mar 11 10:54:06 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:54:22 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 10:55:44 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:02:20 apm.f5.local notice tmm[17455]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Session deleted due to user inactivity.
+Mar 11 11:03:01 apm.f5.local notice tmm[17455]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:0f6ef555: Session statistics - bytes in: 764731, bytes out: 12382330
+Mar 11 11:04:54 apm.f5.local err apmd[12312]: 01490014:3: 00000000: LOCALDB agent: No AAA server associated with /Common/test_act_localdb_auth_ag.
+Mar 11 11:06:27 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:08:38 apm.f5.local notice ldbutil[17496]: 01ab0113:5: Modified local user(/Common/ssl_vpn_localdb_202203102317:finux@126.com) entry in memcache.
+Mar 11 11:08:38 apm.f5.local notice localdbmgr[12342]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:finux@126.com
+Mar 11 11:08:38 apm.f5.local notice localdbmgr[12342]: 01ab0116:5: Local user (/Common/ssl_vpn_localdb_202203102317:finux@126.com) changes succesfully persisted to the database.
+Mar 11 11:09:44 apm.f5.local notice ldbutil[17557]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:finux@126.com
+Mar 11 11:12:37 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:12:37 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:12:37 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:12:37 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:13:18 apm.f5.local notice localdbmgr[12342]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:finux@126.com
+Mar 11 11:16:51 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:16:51 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:16:51 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:16:51 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966039 retrieved from session db for access profile: /Common/test
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966040 added for access profile: /Common/test
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.69854aa4105_9ooooooooooooooooooo for access profile: /Common/test
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.69854aa4105_9ooooooooooooooooooo for access profile: /Common/test
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966040 updated inside session db for access profile: /Common/test
+Mar 11 11:16:51 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 2
+Mar 11 11:17:39 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:cd0ee2d4: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:17:39 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:cd0ee2d4: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:19:37 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:cd0ee2d4:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646967988,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:19:37 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:cd0ee2d4:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:19:37 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:cd0ee2d4: Following rule 'fallback' from item 'Antivirus' to ending 'Deny'
+Mar 11 11:19:39 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:cd0ee2d4: Access policy result: Logon_Deny
+Mar 11 11:19:39 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:cd0ee2d4: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:19:39 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/test:Common:cd0ee2d4: Session deleted (policy_result).
+Mar 11 11:20:19 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:cd0ee2d4: Session statistics - bytes in: 128877, bytes out: 9504148
+Mar 11 11:22:13 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 11:22:28 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:22:28 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:22:28 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:22:28 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:22:28 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966040 retrieved from session db for access profile: /Common/test
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966041 added for access profile: /Common/test
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.6ad616949699_10ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.6ad616949699_10ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966041 updated inside session db for access profile: /Common/test
+Mar 11 11:22:29 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 3
+Mar 11 11:22:52 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:8adf3945: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:22:52 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:8adf3945: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:23:16 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:8adf3945:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:23:16 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:8adf3945:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:23:16 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:8adf3945: Following rule 'fallback' from item 'Windows Process' to ending 'Deny'
+Mar 11 11:23:18 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:8adf3945: Access policy result: Logon_Deny
+Mar 11 11:23:18 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:8adf3945: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:23:18 apm.f5.local notice tmm[17455]: 01490567:5: /Common/test:Common:8adf3945: Session deleted (policy_result).
+Mar 11 11:23:26 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:06bd91b7: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:23:26 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:06bd91b7: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:23:54 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:8adf3945: Session statistics - bytes in: 13768, bytes out: 4221
+Mar 11 11:24:01 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 11:24:06 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:24:06 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:24:06 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:24:06 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:24:06 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966041 retrieved from session db for access profile: /Common/test
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966042 added for access profile: /Common/test
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.6b38161fbecd_11ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.6b38161fbecd_11ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966042 updated inside session db for access profile: /Common/test
+Mar 11 11:24:07 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 4
+Mar 11 11:24:21 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/test:Common:06bd91b7: Session deleted (restarted).
+Mar 11 11:24:21 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:8978dd34: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 11:24:21 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:8978dd34: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:24:21 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:b3b58419: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 11:24:21 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:b3b58419: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:24:25 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:7bfda04f: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:24:25 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:7bfda04f: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:24:36 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:7bfda04f:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:24:36 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:7bfda04f:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:24:57 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:7bfda04f: Username 'finux@126.com'
+Mar 11 11:24:57 apm.f5.local warning apmd[12312]: 01490212:4: /Common/test:Common:7bfda04f: LOCALDB agent: (logon attempt:0) authenticate with 'finux@126.com' failed
+Mar 11 11:25:01 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:06bd91b7: Session statistics - bytes in: 8999, bytes out: 4862
+Mar 11 11:25:11 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:7bfda04f: Username 'finux@126.com'
+Mar 11 11:25:11 apm.f5.local notice apmd[12312]: 01490103:5: /Common/test:Common:7bfda04f: Retry Username 'finux@126.com'
+Mar 11 11:26:05 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:7bfda04f: Username '1646969065'
+Mar 11 11:26:05 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:7bfda04f: Following rule 'fallback' from item 'Empty' to ending 'Deny'
+Mar 11 11:26:05 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:7bfda04f: Access policy result: Logon_Deny
+Mar 11 11:26:05 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:7bfda04f: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:26:05 apm.f5.local notice tmm[17455]: 01490567:5: /Common/test:Common:7bfda04f: Session deleted (policy_result).
+Mar 11 11:26:10 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:43a27a34: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:26:10 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:43a27a34: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:26:26 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:43a27a34:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:26:26 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:43a27a34:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:26:37 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:43a27a34: Username 'finux@126.com'
+Mar 11 11:26:40 apm.f5.local err apmd[12312]: 01490000:3: ApmD.cpp func: "sendAccessPolicyResponse()" line: 2726 Msg: 43a27a34: duplicated request dropped
+Mar 11 11:26:40 apm.f5.local notice tmm1[17455]: 01490501:5: /Common/test:Common:43a27a34: Session deleted due to user logout request.
+Mar 11 11:26:42 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:f6307347: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:26:42 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:f6307347: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:26:46 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:7bfda04f: Session statistics - bytes in: 20800, bytes out: 5817
+Mar 11 11:27:13 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:43a27a34: Session statistics - bytes in: 17495, bytes out: 5019
+Mar 11 11:27:18 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f6307347:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:27:18 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f6307347:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:27:28 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f6307347: Username 'finux@126.com'
+Mar 11 11:27:48 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f6307347: Username '1646969202'
+Mar 11 11:27:48 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:f6307347: Following rule 'fallback' from item 'Empty' to ending 'Deny'
+Mar 11 11:27:48 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:f6307347: Access policy result: Logon_Deny
+Mar 11 11:27:48 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:f6307347: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:27:48 apm.f5.local notice tmm[17455]: 01490567:5: /Common/test:Common:f6307347: Session deleted (policy_result).
+Mar 11 11:28:18 apm.f5.local notice localdbmgr[12342]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:finux@126.com
+Mar 11 11:28:22 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:f6307347: Session statistics - bytes in: 18970, bytes out: 5418
+Mar 11 11:29:30 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:b3b58419: Session deleted due to user inactivity.
+Mar 11 11:29:49 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:8978dd34: Session deleted due to user inactivity.
+Mar 11 11:30:11 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:b3b58419: Session statistics - bytes in: 912, bytes out: 399
+Mar 11 11:30:30 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:8978dd34: Session statistics - bytes in: 952, bytes out: 399
+Mar 11 11:32:16 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 11:32:57 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:32:57 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:32:57 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:32:57 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966042 retrieved from session db for access profile: /Common/test
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966043 added for access profile: /Common/test
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.6d4b4fae3aa_12oooooooooooooooooo for access profile: /Common/test
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.6d4b4fae3aa_12oooooooooooooooooo for access profile: /Common/test
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966043 updated inside session db for access profile: /Common/test
+Mar 11 11:32:57 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 5
+Mar 11 11:33:03 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:066e52c8: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:33:03 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:066e52c8: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:33:27 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:066e52c8:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:33:27 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:066e52c8:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:33:41 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:066e52c8: Username 'finux@126.com'
+Mar 11 11:34:03 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:066e52c8: Username '1646969583'
+Mar 11 11:34:03 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:066e52c8: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 11:34:03 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:066e52c8: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 11:34:03 apm.f5.local err apmd[12312]: 0149013e:3: /Common/test:Common:066e52c8: Allow agent: Logon denied due to validation error, Error Code: 3000 (No Webtop)
+Mar 11 11:34:03 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:066e52c8: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:34:03 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/test:Common:066e52c8: Session deleted (policy_result).
+Mar 11 11:34:10 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:a4085c9b: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:34:10 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:a4085c9b: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:34:41 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:066e52c8: Session statistics - bytes in: 17514, bytes out: 5019
+Mar 11 11:35:20 apm.f5.local notice tmm1[17455]: 01490567:5: /Common/test:Common:a4085c9b: Session deleted (restarted).
+Mar 11 11:35:20 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:c09c8d42: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 11:35:20 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:c09c8d42: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:35:23 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:2606d736: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 11:35:23 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:2606d736: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:35:26 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:f87fd069: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:35:26 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:f87fd069: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:35:58 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:a4085c9b: Session statistics - bytes in: 58790, bytes out: 3657536
+Mar 11 11:36:19 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f87fd069:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:36:19 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f87fd069:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:36:33 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 11:36:41 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:36:41 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:36:41 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:36:41 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966043 retrieved from session db for access profile: /Common/test
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966044 added for access profile: /Common/test
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.6e2a32f21727_13ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.6e2a32f21727_13ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966044 updated inside session db for access profile: /Common/test
+Mar 11 11:36:41 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 6
+Mar 11 11:37:03 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f87fd069: Username 'finux@126.com'
+Mar 11 11:37:26 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f87fd069: Username '1646969726'
+Mar 11 11:37:26 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:f87fd069: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 11:37:26 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:f87fd069: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 11:37:26 apm.f5.local err apmd[12312]: 0149013e:3: /Common/test:Common:f87fd069: Allow agent: Logon denied due to validation error, Error Code: 3000 (No Webtop)
+Mar 11 11:37:26 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:f87fd069: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:37:26 apm.f5.local notice tmm[17455]: 01490567:5: /Common/test:Common:f87fd069: Session deleted (policy_result).
+Mar 11 11:37:59 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:f87fd069: Session statistics - bytes in: 18725, bytes out: 5043
+Mar 11 11:40:29 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/test:Common:2606d736: Session deleted due to user inactivity.
+Mar 11 11:40:31 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:c09c8d42: Session deleted due to user inactivity.
+Mar 11 11:41:10 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:2606d736: Session statistics - bytes in: 912, bytes out: 399
+Mar 11 11:41:12 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:c09c8d42: Session statistics - bytes in: 952, bytes out: 399
+Mar 11 11:43:32 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 11:44:17 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:44:17 apm.f5.local notice tmm1[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:44:17 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:44:17 apm.f5.local notice tmm[17455]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 11:44:17 apm.f5.local notice apmd[12312]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 01490166:5: Current snapshot ID: 1646966044 retrieved from session db for access profile: /Common/test
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646966045 added for access profile: /Common/test
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 0149016a:5: Initiating snapshot creation: tmm.session.6ff31659f759_14ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 0149016b:5: Completed snapshot creation: tmm.session.6ff31659f759_14ooooooooooooooooo for access profile: /Common/test
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 01490167:5: Current snapshot ID: 1646966045 updated inside session db for access profile: /Common/test
+Mar 11 11:44:18 apm.f5.local notice apmd[12312]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 7
+Mar 11 11:44:33 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:a9b8ee99: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F93.0.4577.63%20Safari%2F537.36.
+Mar 11 11:44:33 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:a9b8ee99: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 11:45:41 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:a9b8ee99:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 11:45:41 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:a9b8ee99:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 11:46:12 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:a9b8ee99: Username 'finux@126.com'
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:a9b8ee99: Username '1646970273'
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:a9b8ee99: Connectivity resource '/Common/test_NA' assigned
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490128:5: /Common/test:Common:a9b8ee99: Webtop '/Common/webtop' assigned
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:a9b8ee99: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:a9b8ee99: Access policy result: Full
+Mar 11 11:46:42 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:a9b8ee99: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 11:48:20 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 11:48:20 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 11:48:25 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 11:48:25 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 11:48:55 apm.f5.local notice tmm[17455]: 01490549:5: /Common/test:Common:a9b8ee99: Assigned PPP Dynamic IPv4: 109.101.115.17 ID: 5c17b671 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 11:48:55 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x56000158dc00 (ID: 5c17b671) started.
+Mar 11 11:54:25 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x56000158dc00 (ID: 5c17b671) closed.
+Mar 11 11:56:42 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/test:Common:a9b8ee99: Assigned PPP Dynamic IPv4: 109.101.115.17 ID: e429b8f6 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 - Reconnect
+Mar 11 11:56:42 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x560027afd700 (ID: e429b8f6) started.
+Mar 11 11:57:08 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 11:57:17 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 11:57:17 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 12:03:45 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x560027afd700 (ID: e429b8f6) closed.
+Mar 11 12:04:58 apm.f5.local notice tmm[17455]: 01490549:5: /Common/test:Common:a9b8ee99: Assigned PPP Dynamic IPv4: 109.101.115.17 ID: 04d13160 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 - Reconnect
+Mar 11 12:04:58 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x56000158d500 (ID: 04d13160) started.
+Mar 11 12:06:28 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:a9b8ee99: PPP tunnel 0x56000158d500 (ID: 04d13160) closed.
+Mar 11 12:11:12 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/test:Common:a9b8ee99: Session deleted due to user inactivity.
+Mar 11 12:11:52 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:a9b8ee99: Session statistics - bytes in: 626938, bytes out: 12045335
+Mar 11 12:21:43 apm.f5.local notice tmm[17455]: 01490538:5: tmm.session.69854aa4105_9ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 12:23:10 apm.f5.local notice tmm1[17455]: 01490538:5: tmm.session.6ad616949699_10ooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 12:31:46 apm.f5.local notice tmm[17455]: 01490538:5: tmm.session.6b38161fbecd_11ooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 12:33:44 apm.f5.local notice tmm1[17455]: 01490538:5: tmm.session.6d4b4fae3aa_12oooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 13:07:47 apm.f5.local notice tmm[17455]: 01490517:5: /Common/test:Common:fdad4b7b: User-Agent header is absent or empty
+Mar 11 13:07:47 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:fdad4b7b: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 13:12:54 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:fdad4b7b: Session deleted due to user inactivity.
+Mar 11 13:13:34 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:fdad4b7b: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 13:18:20 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:9e677086: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20rv%3A11.0)%20like%20Gecko.
+Mar 11 13:18:20 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:9e677086: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 13:18:56 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:9e677086:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=0,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 13:18:56 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:9e677086:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 13:20:28 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:9e677086: Username 'finux@126.com'
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:9e677086: Username '1646975900'
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:9e677086: Connectivity resource '/Common/test_NA' assigned
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490128:5: /Common/test:Common:9e677086: Webtop '/Common/webtop' assigned
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:9e677086: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:9e677086: Access policy result: Full
+Mar 11 13:20:56 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:9e677086: Received client info - Hostname: DESKTOP-LFUMGVF Type: IE Version: 11 Platform: Win10 CPU: WOW64 UI Mode: Full Javascript Support: 1 ActiveX Support: 1 Plugin Support: 0
+Mar 11 13:21:04 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 13:21:04 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 13:21:12 apm.f5.local notice tmm[17455]: 01490549:5: /Common/test:Common:9e677086: Assigned PPP Dynamic IPv4: 109.101.115.18 ID: d7ab7713 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 13:21:12 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:9e677086: PPP tunnel 0x56000158e100 (ID: d7ab7713) started.
+Mar 11 13:45:12 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:9e677086: PPP tunnel 0x56000158e100 (ID: d7ab7713) closed.
+Mar 11 13:49:38 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:9e677086: Session deleted due to user inactivity.
+Mar 11 13:50:12 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:9e677086: Session statistics - bytes in: 633171, bytes out: 1083373
+Mar 11 13:52:04 apm.f5.local notice apmd[12312]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 14:06:43 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:5d954775: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 14:06:43 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:5d954775: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 14:07:05 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:5d954775:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 14:07:05 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:5d954775:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 14:07:16 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:5d954775: Username 'finux@126.com'
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:5d954775: Username '1646978803'
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:5d954775: Connectivity resource '/Common/test_NA' assigned
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490128:5: /Common/test:Common:5d954775: Webtop '/Common/webtop' assigned
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:5d954775: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:5d954775: Access policy result: Full
+Mar 11 14:08:07 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:5d954775: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 14:08:21 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/test:Common:5d954775: Assigned PPP Dynamic IPv4: 109.101.115.19 ID: 5a8e9854 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 14:08:21 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:5d954775: PPP tunnel 0x560027afd700 (ID: 5a8e9854) started.
+Mar 11 14:20:21 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:5d954775: PPP tunnel 0x560027afd700 (ID: 5a8e9854) closed.
+Mar 11 14:24:24 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/test:Common:5d954775: Session deleted due to user inactivity.
+Mar 11 14:25:03 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:5d954775: Session statistics - bytes in: 458050, bytes out: 947106
+Mar 11 14:29:13 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:facbe77a: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 14:29:13 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:facbe77a: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 14:29:13 apm.f5.local notice tmm[17455]: 01490567:5: /Common/test:Common:facbe77a: Session deleted (restarted).
+Mar 11 14:29:13 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:f64c7bfc: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 14:29:13 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:f64c7bfc: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 14:29:37 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f64c7bfc:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 14:29:37 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:f64c7bfc:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 14:29:46 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:facbe77a: Session statistics - bytes in: 1639, bytes out: 399
+Mar 11 14:29:53 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f64c7bfc: Username 'finux@126.com'
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:f64c7bfc: Username '1646980153'
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:f64c7bfc: Connectivity resource '/Common/test_NA' assigned
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490128:5: /Common/test:Common:f64c7bfc: Webtop '/Common/webtop' assigned
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:f64c7bfc: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:f64c7bfc: Access policy result: Full
+Mar 11 14:30:17 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:f64c7bfc: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 14:30:20 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 14:30:20 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 14:30:31 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/test:Common:f64c7bfc: Assigned PPP Dynamic IPv4: 109.101.115.20 ID: 42588b77 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 14:30:31 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:f64c7bfc: PPP tunnel 0x560027afe900 (ID: 42588b77) started.
+Mar 11 14:36:31 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:f64c7bfc: PPP tunnel 0x560027afe900 (ID: 42588b77) closed.
+Mar 11 14:41:02 apm.f5.local notice tmm[17455]: 01490502:5: /Common/test:Common:f64c7bfc: Session deleted due to user inactivity.
+Mar 11 14:41:43 apm.f5.local notice tmm[17455]: 01490521:5: /Common/test:Common:f64c7bfc: Session statistics - bytes in: 228821, bytes out: 465699
+Mar 11 14:43:58 apm.f5.local notice tmm1[17455]: 01490506:5: /Common/test:Common:10813bc1: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 14:43:58 apm.f5.local notice tmm1[17455]: 01490500:5: /Common/test:Common:10813bc1: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 14:44:54 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:10813bc1:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 14:44:54 apm.f5.local notice apmd[12312]: 014902f7:5: /Common/test:Common:10813bc1:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 14:45:08 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:10813bc1: Username 'finux@126.com'
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490010:5: /Common/test:Common:10813bc1: Username '1646981038'
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490008:5: /Common/test:Common:10813bc1: Connectivity resource '/Common/test_NA' assigned
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490128:5: /Common/test:Common:10813bc1: Webtop '/Common/webtop' assigned
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490005:5: /Common/test:Common:10813bc1: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490102:5: /Common/test:Common:10813bc1: Access policy result: Full
+Mar 11 14:45:34 apm.f5.local notice apmd[12312]: 01490248:5: /Common/test:Common:10813bc1: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 14:45:39 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 14:45:39 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 14:45:46 apm.f5.local notice tmm[17455]: 01490549:5: /Common/test:Common:10813bc1: Assigned PPP Dynamic IPv4: 109.101.115.21 ID: e55543e1 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 14:45:46 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x56000158c400 (ID: e55543e1) started.
+Mar 11 14:51:17 apm.f5.local notice tmm[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x56000158c400 (ID: e55543e1) closed.
+Mar 11 14:53:58 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/test:Common:10813bc1: Assigned PPP Dynamic IPv4: 109.101.115.21 ID: 79fe8273 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 - Reconnect
+Mar 11 14:53:58 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x560027afdb00 (ID: 79fe8273) started.
+Mar 11 14:54:18 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x560027afdb00 (ID: 79fe8273) closed.
+Mar 11 14:54:22 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 14:54:22 apm.f5.local err tmm[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 14:54:25 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 14:54:25 apm.f5.local err tmm1[17455]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 14:54:32 apm.f5.local notice tmm1[17455]: 01490549:5: /Common/test:Common:10813bc1: Assigned PPP Dynamic IPv4: 109.101.115.21 ID: 7988ae97 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 14:54:32 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x560027afed00 (ID: 7988ae97) started.
+Mar 11 14:56:02 apm.f5.local notice tmm1[17455]: 01490505:5: /Common/test:Common:10813bc1: PPP tunnel 0x560027afed00 (ID: 7988ae97) closed.
+Mar 11 15:00:23 apm.f5.local notice tmm1[17455]: 01490502:5: /Common/test:Common:10813bc1: Session deleted due to user inactivity.
+Mar 11 15:01:03 apm.f5.local notice tmm1[17455]: 01490521:5: /Common/test:Common:10813bc1: Session statistics - bytes in: 383276, bytes out: 514362
+Mar 11 15:34:12 apm.f5.local notice tmm[17455]: 01490506:5: /Common/test:Common:94d84dce: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 15:34:12 apm.f5.local notice tmm[17455]: 01490500:5: /Common/test:Common:94d84dce: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 15:36:32 apm notice boot_marker : ---===[ HD1.1 - BIG-IP 15.1.4.1 Build 0.0.15 ]===---
+Mar 11 15:37:07 apm.f5.local notice logger[8842]: 0149F000: Endpoint security package version 1.0.0-928.0 installed.
+Mar 11 15:37:09 apm.f5.local notice apmclient_mount[11333]: 014902c7:5: auto-mount command start.
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11396]: 014902c7:5: apm_image_mount: APM image /usr/apm/images/apmclients-7213.2021.527.649-5386.0.iso mounted.
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11398]: 014902c7:5: symlink_f: /var/apm/mount/apmclients alredy point to /var/apm/mount/apmclients-7213.2021.527.649-5386.0.iso.
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11400]: 014902c7:5: apm_image_link: Symlink created: "/var/apm/mount/apmclients" -> "/var/apm/mount/apmclients-7213.2021.527.649-5386.0.iso".
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11462]: 014902c7:5: run_httpd_sam_reinit: httpd_sam is not running. Skip reinit call.
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11520]: 014902c7:5: update_db_var: DB variable "APM.Client.Version" alredy set to "apmclients-7213.2021.527.649-5386.0.iso".
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11645]: 014902c7:5: run_tmm_samclientversion: /usr/bin/tmm_samclientversion.php complete.
+Mar 11 15:37:10 apm.f5.local notice apmclient_mount[11659]: 014902c7:5: auto-mount command complete.
+Mar 11 15:37:20 apm.f5.local notice apmclient_image[15656]: 014902c9:5: init command start.
+Mar 11 15:37:20 apm.f5.local notice apmclient_image[15665]: 014902c9:5: apmclient_image_init: Removing all "apm client image" entries.
+Mar 11 15:37:20 apm.f5.local notice apmclient_image[15677]: 014902c9:5: apmclient_image_init: 0 "apm client image" entries removed.
+Mar 11 15:37:21 apm.f5.local notice apmclient_image[15802]: 014902c9:5: apmclient_image_add: Adding "apm client image" entries.
+Mar 11 15:37:21 apm.f5.local notice apmclient_image[15808]: 014902c9:5: apmclient_image_add: Adding MCP entry for "/usr/apm/images/apmclients-7213.2021.527.649-5386.0.iso".
+Mar 11 15:37:21 apm.f5.local notice apmclient_image[15822]: 014902c9:5: Verifying image md5sum...
+Mar 11 15:37:25 apm.f5.local notice apmclient_image[16793]: 014902c9:5: apmclient_image_add: 1 "apm client image" entries created or updated.
+Mar 11 15:37:25 apm.f5.local notice apmclient_image[16796]: 014902c9:5: init command complete.
+Mar 11 15:37:25 apm.f5.local notice apmclient_mount[16841]: 014902c7:5: auto-mount command start.
+Mar 11 15:37:25 apm.f5.local notice apmclient_mount[16947]: 014902c7:5: apm_image_mount: APM image /usr/apm/images/apmclients-7213.2021.527.649-5386.0.iso already mounted.
+Mar 11 15:37:25 apm.f5.local notice apmclient_mount[16949]: 014902c7:5: symlink_f: /var/apm/mount/apmclients alredy point to /var/apm/mount/apmclients-7213.2021.527.649-5386.0.iso.
+Mar 11 15:37:25 apm.f5.local notice apmclient_mount[16950]: 014902c7:5: apm_image_link: Symlink created: "/var/apm/mount/apmclients" -> "/var/apm/mount/apmclients-7213.2021.527.649-5386.0.iso".
+Mar 11 15:37:26 apm.f5.local notice apmclient_mount[17121]: 014902c7:5: run_httpd_sam_reinit: httpd_sam reinitialized.
+Mar 11 15:37:26 apm.f5.local notice apmclient_mount[17143]: 014902c7:5: update_db_var: DB variable "APM.Client.Version" alredy set to "apmclients-7213.2021.527.649-5386.0.iso".
+Mar 11 15:37:27 apm.f5.local notice apmclient_mount[17184]: 014902c7:5: run_tmm_samclientversion: /usr/bin/tmm_samclientversion.php complete.
+Mar 11 15:37:27 apm.f5.local notice apmclient_mount[17188]: 014902c7:5: auto-mount command complete.
+15:37:27 ---load epsec packages start---
+15:37:30 ---load epsec packages end---
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490175:5: Prefer resolving hostname with IPv4 address
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490214:5: DB varialble initialized with  0
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490249:5: DB varialble initialized with  1
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490249:5: DB varialble initialized with  512
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490249:5: DB varialble initialized with  492
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490228:5: DB varialble initialized with  10
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490278:5: (null):Common:00000000: APMD cluster role: Primary.
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490279:5: (null):Common:00000000: APMD HA state is standby.
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490274:5: (null):Common:00000000: New master key received.
+Mar 11 15:37:34 apm.f5.local notice apmd[12353]: 01490164:5: APMD updated device Id: 208000503ad3b7f509f1947294237974 for self device: /Common/apm.f5.local
+Mar 11 15:37:36 apm.f5.local notice apmd[12353]: 01490260:5: Device HA state transitioned from STANDBY to ACTIVE
+Mar 11 15:37:44 apm notice run[12376]: Installing mysql plugin for active_sessions...
+Mar 11 15:37:44 apm notice run[12376]: Try to uninstall plugin apm_active_sessions
+Mar 11 15:37:44 apm notice run[12376]: Try to install plugin apm_active_sessions
+Mar 11 15:37:44 apm notice run[12376]: Successfully installed the libf5_active_sessions.so.
+Mar 11 15:37:45 apm.f5.local notice tmm1[17534]: 01490541:5: Access using device name: /Common/apm.f5.local and device ID: 208000503ad3b7f509f1947294237974.
+Mar 11 15:37:45 apm.f5.local notice tmm[17534]: 01490541:5: Access using device name: /Common/apm.f5.local and device ID: 208000503ad3b7f509f1947294237974.
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490572:5: 00000000: API Protection feature is licensed
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490510:5: 00000000: Initializing Access with max global concurrent access session limit: 10000000
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490526:5: 00000000: Initializing Access with max global concurrent connectivity session limit: 750
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490555:5: 00000000: Initializing Access with max global concurrent url filtering session limit: 0
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490569:5: 00000000: Initializing Access with max global concurrent url filtering limited session limit: 10000000
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490572:5: 00000000: API Protection feature is licensed
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490510:5: 00000000: Initializing Access with max global concurrent access session limit: 10000000
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490526:5: 00000000: Initializing Access with max global concurrent connectivity session limit: 750
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490555:5: 00000000: Initializing Access with max global concurrent url filtering session limit: 0
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490569:5: 00000000: Initializing Access with max global concurrent url filtering limited session limit: 10000000
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 014905a2:5: Access Manager is not licensed
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 014905ad:5: (null):Common:00000000: Ephemeral Authentication feature is licensed.
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490587:5: (null):Common:00000000: Traffic group 0 is configured with APM virtual server
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 15:37:46 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 014905a2:5: Access Manager is not licensed
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 014905ad:5: (null):Common:00000000: Ephemeral Authentication feature is licensed.
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490587:5: (null):Common:00000000: Traffic group 0 is configured with APM virtual server
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 15:37:46 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/test with max concurrent user sessions limit: 0
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490000:5: AccessPolicyProcessor/AccessPolicyProcessor.cpp func: "setCatalogKey()" line: 332 Msg: Initializing Config Snapshot Infrastructure, Created Catalog at tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984266 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984266 retrieved from session db for access profile: /Common/test
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984267 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.5227a35289_0oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.5227a35289_0oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984267 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646984267 added for access profile: /Common/test
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.52280d0920_1oooooooooooooooooooo for access profile: /Common/test
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.52280d0920_1oooooooooooooooooooo for access profile: /Common/test
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984267 updated inside session db for access profile: /Common/test
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490271:5: (null):Common:00000000: Number of Access V2 Agents loaded= 3.
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016c:5: APMD started.
+Mar 11 15:37:46 apm.f5.local warning apmd[12353]: 0149013b:4: Agent type (74): is not licensed 'apm_adaptive_mfa'.
+Mar 11 15:37:46 apm.f5.local warning apmd[12353]: 0149013b:4: Agent type (75): is not licensed 'apm_adaptive_mfa'.
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149027b:5: (null):Common:00000000: Successfully connected to tmm (sessiondb).
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490171:5: MEMCACHED is up
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490172:5: Waiting for TMM to stabilize
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490170:5: Resume processing
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490000:5: AccessPolicyProcessor/AccessPolicyProcessor.cpp func: "setCatalogKey()" line: 332 Msg: Initializing Config Snapshot Infrastructure, Created Catalog at tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984267 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984268 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.5238894b1d_2oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.5238894b1d_2oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:46 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984267 retrieved from session db for access profile: /Common/test
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646984268 added for access profile: /Common/test
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.53721f838_3ooooooooooooooooooooo for access profile: /Common/test
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.53721f838_3ooooooooooooooooooooo for access profile: /Common/test
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984268 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984268 updated inside session db for access profile: /Common/test
+Mar 11 15:37:47 apm.f5.local notice apmd[12353]: 014902f3:5: (null):Common:00000000: Successfully created config snapshots for all access profiles.
+Mar 11 15:37:49 apm.f5.local  ---------------------------------------------
+Mar 11 15:37:49 apm.f5.local  Fri Mar 11 15:37:49 CST 2022
+Mar 11 15:37:50 apm.f5.local notice websso.0[18793]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  Initializing SSO Plugin with channel: mem://websso0  ===
+Mar 11 15:37:50 apm.f5.local notice apm_websso.0[18792]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  Initializing SSO Plugin with channel: mem://apm_websso0  ===
+Mar 11 15:37:51 apm.f5.local notice websso.0[18793]: 014d0054:5: (null):Common:00000000:MCP subscribing with id: mem://websso0
+Mar 11 15:37:51 apm.f5.local notice apm_websso.0[18792]: 014d0054:5: (null):Common:00000000:MCP subscribing with id: mem://apm_websso0
+Mar 11 15:37:51 apm.f5.local notice websso.0[18793]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  SSO Plugin initialization done (channel: mem://websso0)  ===
+Mar 11 15:37:51 apm.f5.local notice websso.1[18922]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  Initializing SSO Plugin with channel: mem://websso1  ===
+Mar 11 15:37:51 apm.f5.local notice rba[12539]: 01490000:5: RBA: RBA Plugin initialization done (channel: mem://rba)
+Mar 11 15:37:51 apm.f5.local notice apm_websso.1[18921]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  Initializing SSO Plugin with channel: mem://apm_websso1  ===
+Mar 11 15:37:52 apm.f5.local notice websso.1[18922]: 014d0054:5: (null):Common:00000000:MCP subscribing with id: mem://websso1
+Mar 11 15:37:52 apm.f5.local notice websso.1[18922]: 014d0054:5: (null):Common:00000000:014d0000:7: ===  SSO Plugin initialization done (channel: mem://websso1)  ===
+Mar 11 15:37:52 apm.f5.local notice apm_websso.1[18921]: 014d0054:5: (null):Common:00000000:MCP subscribing with id: mem://apm_websso1
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: 01490000:7: ===  Initializing EAM Plugin
+Mar 11 15:37:53 apm.f5.local  ===
+Mar 11 15:37:53 apm.f5.local notice /usr/libexec/eam[12365]: 01490000:7: ===  Initializing EAM Plugin
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: 01490000:5: License change received
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: 01490000:5: OAM is licensed.
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: OAM is licensed.
+Mar 11 15:37:53 apm.f5.local notice /usr/libexec/eam[12365]: 01490000:5: License change received
+Mar 11 15:37:53 apm.f5.local notice /usr/libexec/eam[12365]: 01490000:5: OAM is licensed.
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: 01490000:5: 0 accessgate(s) effectively initialized
+Mar 11 15:37:53 apm.f5.local  /usr/libexec/eam[12365]: 01490000:7: ===  EAM Plugin initialization done
+Mar 11 15:37:53 apm.f5.local  ===
+Mar 11 15:37:53 apm.f5.local notice /usr/libexec/eam[12365]: 01490000:5: 0 accessgate(s) effectively initialized
+Mar 11 15:37:53 apm.f5.local notice /usr/libexec/eam[12365]: 01490000:7: ===  EAM Plugin initialization done
+Mar 11 15:37:54 apm.f5.local notice eca[12369]: 01620010:5: License change received
+Mar 11 15:37:54 apm.f5.local notice eca[12369]: 01620010:5: ECA Plugin initialization done
+Mar 11 15:37:54 apm.f5.local notice eca[12369]: 01620010:5: ECA log level Notice (5)
+Mar 11 15:37:58 apm.f5.local notice mdmsyncmgr[13975]: 019dffff:5: (null)::00000000: {} mdmsyncmgr daemon is not active, activate it
+Mar 11 15:37:59 apm.f5.local notice oauth[12456]: 0199100a:5: OAUTH log level Notice (5)
+Mar 11 15:37:59 apm.f5.local notice oauth[12456]: 0199100a:5: Initializing OAUTH Plugin
+Mar 11 15:37:59 apm.f5.local notice oauth[12456]: 0199100a:5: License change received
+Mar 11 15:37:59 apm.f5.local notice oauth[12456]: 0199100a:5: OAUTH Plugin initialization done
+Mar 11 15:37:59 apm.f5.local notice oauth[12456]: 0199100a:5: Creating DB Instance /Common/oauthdb
+Mar 11 15:38:00 apm.f5.local notice oauth[12456]: 0199100a:5: OAUTH log level Notice (5)
+Mar 11 15:45:38 apm.f5.local notice apmd[12353]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 15:53:51 apm.f5.local notice tmm[17534]: 01490562:5: /Common/default_ssl_vpn_policy_202203102312_act_logon_page_ag: /Common/default_ssl_vpn_policy_202203102312_act_logon_page agent update can not be resolved.
+Mar 11 15:53:51 apm.f5.local notice tmm1[17534]: 01490562:5: /Common/default_ssl_vpn_policy_202203102312_act_logon_page_ag: /Common/default_ssl_vpn_policy_202203102312_act_logon_page agent update can not be resolved.
+Mar 11 15:54:03 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984268 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984269 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.424c70fe60_4oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.424c70fe60_4oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984269 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 8
+Mar 11 15:54:04 apm.f5.local notice apmd[12353]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 15:54:22 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:55:02 apm.f5.local err apmd[12353]: 01490187:3: 00000000: Email Agent: No SMTP server associated with /Common/default_ssl_vpn_policy_202203102312_act_email_ag
+Mar 11 15:58:41 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:59:08 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:59:15 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/test:Common:0f419338: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 15:59:15 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/test:Common:0f419338: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984269 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984270 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.565e98300f_5oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.565e98300f_5oooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984270 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 15:59:25 apm.f5.local notice apmd[12353]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 9
+Mar 11 15:59:35 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/test:Common:0f419338:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 15:59:35 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/test:Common:0f419338:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:00:41 apm.f5.local notice apmd[12353]: 01490079:5: 00000000: Access policy '/Common/test' configuration has changed.Access profile '/Common/test' configuration changes need to be applied for the new configuration
+Mar 11 16:01:29 apm.f5.local notice apmd[12353]: 01490010:5: /Common/test:Common:0f419338: Username 'finux@126.com'
+Mar 11 16:01:32 apm.f5.local err apmd[12353]: 01490000:3: ApmD.cpp func: "sendAccessPolicyResponse()" line: 2726 Msg: 0f419338: duplicated request dropped
+Mar 11 16:01:33 apm.f5.local notice tmm1[17534]: 01490501:5: /Common/test:Common:0f419338: Session deleted due to user logout request.
+Mar 11 16:01:33 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_NOT_FOUND. File: ../modules/hudfilter/access/access.c, Function: access_rotate_sid, Line: 27171
+Mar 11 16:01:33 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_NOT_FOUND. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_wait_for_resp, Line: 10845
+Mar 11 16:01:35 apm.f5.local notice tmm[17534]: 01490506:5: /Common/test:Common:b02c3832: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:01:35 apm.f5.local notice tmm[17534]: 01490500:5: /Common/test:Common:b02c3832: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:02:05 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/test:Common:b02c3832:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 16:02:05 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/test:Common:b02c3832:/Common/test_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:02:10 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/test:Common:0f419338: Session statistics - bytes in: 22559, bytes out: 6216
+Mar 11 16:02:16 apm.f5.local notice apmd[12353]: 01490010:5: /Common/test:Common:b02c3832: Username 'finux@126.com'
+Mar 11 16:02:42 apm.f5.local notice apmd[12353]: 01490010:5: /Common/test:Common:b02c3832: Username '1646985695'
+Mar 11 16:02:42 apm.f5.local notice apmd[12353]: 01490008:5: /Common/test:Common:b02c3832: Connectivity resource '/Common/test_NA' assigned
+Mar 11 16:02:42 apm.f5.local notice apmd[12353]: 01490128:5: /Common/test:Common:b02c3832: Webtop '/Common/webtop' assigned
+Mar 11 16:02:43 apm.f5.local notice apmd[12353]: 01490005:5: /Common/test:Common:b02c3832: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 16:02:43 apm.f5.local notice apmd[12353]: 01490102:5: /Common/test:Common:b02c3832: Access policy result: Full
+Mar 11 16:02:43 apm.f5.local notice apmd[12353]: 01490248:5: /Common/test:Common:b02c3832: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:02:46 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 16:02:46 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 16:02:50 apm.f5.local notice apmd[12353]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 16:02:51 apm.f5.local err tmm[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 16:02:51 apm.f5.local err tmm[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 16:03:03 apm.f5.local notice tmm1[17534]: 01490549:5: /Common/test:Common:b02c3832: Assigned PPP Dynamic IPv4: 109.101.115.11 ID: 2a427178 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/test_NA Client IP: 58.247.201.241 
+Mar 11 16:03:03 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/test:Common:b02c3832: PPP tunnel 0x560027afd700 (ID: 2a427178) started.
+Mar 11 16:05:47 apm.f5.local notice ldbutil[22719]: 01ab0113:5: Modified local user(/Common/ssl_vpn_localdb_202203102317:289777157@qq.com) entry in memcache.
+Mar 11 16:05:47 apm.f5.local notice localdbmgr[12386]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:289777157@qq.com
+Mar 11 16:05:47 apm.f5.local notice localdbmgr[12386]: 01ab0116:5: Local user (/Common/ssl_vpn_localdb_202203102317:289777157@qq.com) changes succesfully persisted to the database.
+Mar 11 16:08:00 apm.f5.local notice localdbmgr[12386]: 01ab0105:5: Updated DB for Admin triggered changes to user /Common/ssl_vpn_localdb_202203102317:289777157@qq.com
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984270 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984271 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.79d2cc0e4bf_6ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.79d2cc0e4bf_6ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984271 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:08:53 apm.f5.local notice apmd[12353]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 10
+Mar 11 16:09:14 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:09:14 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:09:14 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:09:14 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:09:15 apm.f5.local notice tmm[17534]: 01490576:5: /Common/default_ssl_vpn_policy_202203102312:Common:b02c3832 Session invalidated due to profile scope mismatch (expected '/Common/default_ssl_vpn_policy_202203102312', got '/Common/test').
+Mar 11 16:09:15 apm.f5.local notice tmm[17534]: 01490567:5: /Common/test:Common:b02c3832: Session deleted (security_check).
+Mar 11 16:09:15 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/test:Common:b02c3832: PPP tunnel 0x560027afd700 (ID: 2a427178) closed.
+Mar 11 16:09:55 apm.f5.local notice tmm[17534]: 01490521:5: /Common/test:Common:b02c3832: Session statistics - bytes in: 647837, bytes out: 1888741
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/test initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984268 retrieved from session db for access profile: /Common/test
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/test.1646984269 added for access profile: /Common/test
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.7dc7dac215_7oooooooooooooooooooo for access profile: /Common/test
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.7dc7dac215_7oooooooooooooooooooo for access profile: /Common/test
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984269 updated inside session db for access profile: /Common/test
+Mar 11 16:09:56 apm.f5.local notice apmd[12353]: 01490101:5: 00000000: Access profile: /Common/test configuration has been applied. Newly active generation count is: 8
+Mar 11 16:10:21 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:10:21 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:10:40 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 16:10:40 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:11:29 apm.f5.local notice apmd[12353]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Username 'finux@126.com'
+Mar 11 16:11:50 apm.f5.local notice apmd[12353]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 16:11:50 apm.f5.local notice apmd[12353]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 16:11:50 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 16:11:50 apm.f5.local notice apmd[12353]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Access policy result: Network_Access
+Mar 11 16:11:50 apm.f5.local notice apmd[12353]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:11:53 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 16:11:53 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 16:11:56 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 16:11:56 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 16:12:03 apm.f5.local notice tmm1[17534]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Assigned PPP Dynamic IPv4: 109.101.115.12 ID: 7a2ed533 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.241 
+Mar 11 16:12:03 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: PPP tunnel 0x560027afd900 (ID: 7a2ed533) started.
+Mar 11 16:12:22 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:f2c14af9: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 16:12:22 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:f2c14af9: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:14:04 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 16:14:04 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 16:14:05 apm.f5.local notice tmm[17534]: 014905d5:5: /Common/default_ssl_vpn_policy_202203102312:Common: Invalid token 2556c61c629590d8319ce2168cac1902   recieved from client IP 58.247.201.241 at VIP 109.101.115.10. Error ERR_NOT_FOUND
+Mar 11 16:14:11 apm.f5.local err tmm[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 16:14:14 apm.f5.local err tmm[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_session, Line: 9027
+Mar 11 16:14:14 apm.f5.local err tmm[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3987
+Mar 11 16:14:15 apm.f5.local notice apmd[12353]: 01490079:5: 00000000: Access policy '/Common/default_ssl_vpn_policy_202203102312' configuration has changed.Access profile '/Common/default_ssl_vpn_policy_202203102312' configuration changes need to be applied for the new configuration
+Mar 11 16:14:27 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:14:27 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:14:27 apm.f5.local notice tmm[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:14:27 apm.f5.local notice tmm1[17534]: 01490511:5: /Common:00000000: Initializing Access profile /Common/default_ssl_vpn_policy_202203102312 with max concurrent user sessions limit: 0
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 01490165:5: Access profile: /Common/default_ssl_vpn_policy_202203102312 initialized with configuration snapshot catalog: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 01490166:5: Current snapshot ID: 1646984271 retrieved from session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 01490169:5: Snapshot catalog entry: tmm.session.f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5f5./Common/default_ssl_vpn_policy_202203102312.1646984272 added for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 0149016a:5: Initiating snapshot creation: tmm.session.8eb207d88df_8ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 0149016b:5: Completed snapshot creation: tmm.session.8eb207d88df_8ooooooooooooooooooo for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 01490167:5: Current snapshot ID: 1646984272 updated inside session db for access profile: /Common/default_ssl_vpn_policy_202203102312
+Mar 11 16:14:27 apm.f5.local notice apmd[12353]: 01490101:5: 00000000: Access profile: /Common/default_ssl_vpn_policy_202203102312 configuration has been applied. Newly active generation count is: 11
+Mar 11 16:14:44 apm.f5.local notice tmm[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Session deleted (user_initiated; code - 1).
+Mar 11 16:14:45 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: PPP tunnel 0x560027afd900 (ID: 7a2ed533) closed.
+Mar 11 16:14:48 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:14:48 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:14:59 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 16:14:59 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:15:09 apm.f5.local notice apmd[12353]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Username 'finux@126.com'
+Mar 11 16:15:21 apm.f5.local notice apmd[12353]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 16:15:21 apm.f5.local notice apmd[12353]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 16:15:21 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 16:15:21 apm.f5.local notice apmd[12353]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Access policy result: Network_Access
+Mar 11 16:15:21 apm.f5.local notice apmd[12353]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:15:21 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:c968c309: Session statistics - bytes in: 236480, bytes out: 432387
+Mar 11 16:15:25 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: access_process_state_client_enforce_acl, Line: 13545
+Mar 11 16:15:25 apm.f5.local err tmm1[17534]: 01490514:3: (null):Common:00000000: Access encountered error: ERR_INPROGRESS. File: ../modules/hudfilter/access/access.c, Function: hud_access_handler, Line: 3882
+Mar 11 16:15:35 apm.f5.local notice tmm1[17534]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Assigned PPP Dynamic IPv4: 109.101.115.13 ID: 04ec3708 Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.241 
+Mar 11 16:15:35 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: PPP tunnel 0x560027afdf00 (ID: 04ec3708) started.
+Mar 11 16:17:56 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:f2c14af9: Session deleted due to user inactivity.
+Mar 11 16:18:31 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:f2c14af9: Session statistics - bytes in: 14093, bytes out: 65974
+Mar 11 16:26:06 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: PPP tunnel 0x560027afdf00 (ID: 04ec3708) closed.
+Mar 11 16:27:46 apm.f5.local notice tmm1[17534]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Assigned PPP Dynamic IPv4: 109.101.115.13 ID: 3bd5af1e Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.241 - Reconnect
+Mar 11 16:27:46 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: PPP tunnel 0x560027afe300 (ID: 3bd5af1e) started.
+Mar 11 16:30:20 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:35bb71fb: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 16:30:20 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:35bb71fb: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:32:20 apm.f5.local notice tmm[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:35bb71fb: Session deleted (restarted).
+Mar 11 16:32:20 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:a6f2c295: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64%3B%20rv%3A97.0)%20Gecko%2F20100101%20Firefox%2F97.0.
+Mar 11 16:32:20 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:a6f2c295: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:32:56 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:35bb71fb: Session statistics - bytes in: 9059, bytes out: 11662
+Mar 11 16:33:53 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:33:53 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:35:16 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:35:16 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:35:39 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Following rule 'fallback' from item 'Antivirus' to ending 'Deny'
+Mar 11 16:35:39 apm.f5.local notice apmd[12353]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Access policy result: Logon_Deny
+Mar 11 16:35:39 apm.f5.local notice apmd[12353]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Received client info - Hostname:  Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:35:39 apm.f5.local notice tmm1[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Session deleted (policy_result).
+Mar 11 16:35:43 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:35:43 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:36:14 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:3eb68051: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 16:36:14 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:3eb68051: New session from client IP 58.247.201.154 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:36:19 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:1ddffdcd: Session statistics - bytes in: 19970, bytes out: 86909
+Mar 11 16:36:24 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=1,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1703.0,db_time=1646890729,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:36:24 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Following rule 'fallback' from item 'Antivirus' to ending 'Deny'
+Mar 11 16:36:26 apm.f5.local notice apmd[12353]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Access policy result: Logon_Deny
+Mar 11 16:36:26 apm.f5.local notice apmd[12353]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Received client info - Hostname: DESKTOP-5613UDI Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:36:26 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=1,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1703.0,db_time=1646890729,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:36:26 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1: Following rule 'fallback' from item 'Antivirus' to ending 'Deny'
+Mar 11 16:36:26 apm.f5.local notice tmm[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Session deleted (policy_result).
+Mar 11 16:37:05 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:abe00a7d: Session statistics - bytes in: 82685, bytes out: 5780606
+Mar 11 16:37:52 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:a6f2c295: Session deleted due to user inactivity.
+Mar 11 16:38:33 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:a6f2c295: Session statistics - bytes in: 10427, bytes out: 12029
+Mar 11 16:39:17 apm.f5.local notice tmm1[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: PPP tunnel 0x560027afe300 (ID: 3bd5af1e) closed.
+Mar 11 16:40:13 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 16:40:13 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 16:40:27 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=535,vendor_id=388,version=9.0.56.1,state=1,name=AhnLab V3 Internet Security,vendor_name=AhnLab, Inc.,db_signature=1372,db_version=,db_time=1578067200,last_scan=1646976518,engine_version=2020.01.04.00,missing_updates=).
+Mar 11 16:40:27 apm.f5.local notice apmd[12353]: 014902f7:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be:/Common/default_ssl_vpn_policy_202203102312_act_av_software_check_ag: endpoint software detected (sdk=4.3.1453.0,type=av,id=362,vendor_id=90,version=4.18.2201.10,state=,name=Windows Defender,vendor_name=Microsoft Corporation,db_signature=477,db_version=1.359.1714.0,db_time=1646905832,last_scan=0,engine_version=1.1.18900.3,missing_updates=).
+Mar 11 16:40:46 apm.f5.local notice apmd[12353]: 01490010:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Username 'finux@126.com'
+Mar 11 16:41:06 apm.f5.local notice apmd[12353]: 01490008:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Connectivity resource '/Common/default_ssl_vpn_policy_202203102312_na_res' assigned
+Mar 11 16:41:06 apm.f5.local notice apmd[12353]: 01490128:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Webtop '/Common/default_ssl_vpn_policy_202203102312_webtop' assigned
+Mar 11 16:41:06 apm.f5.local notice apmd[12353]: 01490005:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Following rule 'fallback' from item 'Advanced Resource Assign' to ending 'Allow'
+Mar 11 16:41:06 apm.f5.local notice apmd[12353]: 01490102:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Access policy result: Network_Access
+Mar 11 16:41:06 apm.f5.local notice apmd[12353]: 01490248:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Received client info - Hostname: DESKTOP-LFUMGVF Type: Mozilla Version: 5 Platform: Win10 CPU: x64 UI Mode: Full Javascript Support: 1 ActiveX Support: 0 Plugin Support: 0
+Mar 11 16:41:23 apm.f5.local notice tmm[17534]: 01490549:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Assigned PPP Dynamic IPv4: 109.101.115.14 ID: 5a69849f Tunnel Type: VPN_TUNNELTYPE_TLS NA Resource: /Common/default_ssl_vpn_policy_202203102312_na_res Client IP: 58.247.201.241 
+Mar 11 16:41:23 apm.f5.local notice tmm[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: PPP tunnel 0x56000158fb00 (ID: 5a69849f) started.
+Mar 11 16:41:33 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:3eb68051: Session deleted due to user inactivity.
+Mar 11 16:41:53 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1: Session deleted due to user inactivity.
+Mar 11 16:42:14 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:3eb68051: Session statistics - bytes in: 906, bytes out: 399
+Mar 11 16:42:34 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:f9671cc1: Session statistics - bytes in: 65038, bytes out: 3693533
+Mar 11 16:54:17 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Session deleted due to user inactivity.
+Mar 11 16:54:51 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:12506faa: Session statistics - bytes in: 2539123, bytes out: 4984811
+Mar 11 17:03:13 apm.f5.local notice tmm1[17534]: 01490567:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Session deleted (user_initiated; code - 1).
+Mar 11 17:03:14 apm.f5.local notice tmm[17534]: 01490505:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: PPP tunnel 0x56000158fb00 (ID: 5a69849f) closed.
+Mar 11 17:03:54 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:6c2bb9be: Session statistics - bytes in: 849950, bytes out: 1173377
+Mar 11 17:04:32 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:f29e0b39: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 17:04:32 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:f29e0b39: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 17:08:34 apm.f5.local notice tmm1[17534]: 01490538:5: tmm.session.53721f838_3ooooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 17:08:34 apm.f5.local notice tmm[17534]: 01490538:5: tmm.session.53721f838_3ooooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 17:09:38 apm.f5.local notice tmm[17534]: 01490538:5: tmm.session.79d2cc0e4bf_6ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 17:09:38 apm.f5.local notice tmm1[17534]: 01490538:5: tmm.session.79d2cc0e4bf_6ooooooooooooooooooo: Configuration snapshot deleted by Access.
+Mar 11 17:09:50 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:f29e0b39: Session deleted due to user inactivity.
+Mar 11 17:10:31 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:f29e0b39: Session statistics - bytes in: 13267, bytes out: 68756
+Mar 11 17:34:51 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:055db7be: Received User-Agent header: Mozilla%2F5.0%20zgrab%2F0.x.
+Mar 11 17:34:51 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:055db7be: New session from client IP 192.241.214.50 (ST=California/CC=US/C=NA) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 17:39:53 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:055db7be: Session deleted due to user inactivity.
+Mar 11 17:40:33 apm.f5.local notice tmm[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:cfd19572: Received User-Agent header: Mozilla%2F4.0%20(compatible%3B%20MSIE%207.0%3B%20Windows%20NT%2010.0%3B%20WOW64%3B%20Trident%2F7.0%3B%20.NET4.0C%3B%20.NET4.0E%3B%20.NET%20CLR%202.0.50727%3B%20.NET%20CLR%203.0.30729%3B%20.NET%20CLR%203.5.30729).
+Mar 11 17:40:33 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:cfd19572: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 17:40:34 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:055db7be: Session statistics - bytes in: 0, bytes out: 0
+Mar 11 17:40:43 apm.f5.local notice tmm1[17534]: 01490506:5: /Common/default_ssl_vpn_policy_202203102312:Common:3a52ac0f: Received User-Agent header: Mozilla%2F5.0%20(Windows%20NT%2010.0%3B%20Win64%3B%20x64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F99.0.4844.51%20Safari%2F537.36.
+Mar 11 17:40:43 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:3a52ac0f: New session from client IP 58.247.201.241 (ST=Shanghai/CC=CN/C=AS) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 17:46:04 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:cfd19572: Session deleted due to user inactivity.
+Mar 11 17:46:45 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:cfd19572: Session statistics - bytes in: 912, bytes out: 399
+Mar 11 17:46:59 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:3a52ac0f: Session deleted due to user inactivity.
+Mar 11 17:47:40 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:3a52ac0f: Session statistics - bytes in: 9083, bytes out: 2394
+Mar 11 19:17:56 apm.f5.local notice tmm1[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:c1a3fcf2: User-Agent header is absent or empty
+Mar 11 19:17:56 apm.f5.local notice tmm1[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:c1a3fcf2: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 11 19:23:01 apm.f5.local notice tmm1[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:c1a3fcf2: Session deleted due to user inactivity.
+Mar 11 19:23:42 apm.f5.local notice tmm1[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:c1a3fcf2: Session statistics - bytes in: 0, bytes out: 0
+Mar 12 01:30:28 apm.f5.local notice tmm[17534]: 01490517:5: /Common/default_ssl_vpn_policy_202203102312:Common:b08fc65e: User-Agent header is absent or empty
+Mar 12 01:30:28 apm.f5.local notice tmm[17534]: 01490500:5: /Common/default_ssl_vpn_policy_202203102312:Common:b08fc65e: New session from client IP 83.97.20.34 (ST=Bucuresti/CC=RO/C=EU) at VIP 109.101.115.10 Listener /Common/default_ssl_vpn_policy_202203102312_vs (Reputation=Unknown)
+Mar 12 01:35:31 apm.f5.local notice tmm[17534]: 01490502:5: /Common/default_ssl_vpn_policy_202203102312:Common:b08fc65e: Session deleted due to user inactivity.
+Mar 12 01:36:12 apm.f5.local notice tmm[17534]: 01490521:5: /Common/default_ssl_vpn_policy_202203102312:Common:b08fc65e: Session statistics - bytes in: 0, bytes out: 0
